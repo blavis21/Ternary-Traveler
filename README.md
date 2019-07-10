@@ -40,7 +40,6 @@ An example of what an interest would like when it is initially added:
 An example of what an interest would like after it has been visited and reviewed:
 ```json
 { "id": 1, "placeId": 1, "name": "Local Market", "description": "Local market where you can purchase local products and try the local food", "cost": 0.00, "review": "You can definitely get things for a lower price if you are willing to bargain!" }```
-(edited)
 
 ## Story
 As a user, I should be able to enter in an point of interest, and associate it with a place.

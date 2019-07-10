@@ -1,24 +1,58 @@
 {
-  "posts": [
+  "places": [
     {
       "id": 1,
-      "title": "json-server",
-      "author": "typicode"
+      "name": "Italy",
+      "visa_required": false
     },
     {
       "id": 2,
-      "title": "json-server",
-      "author": "typicode"
+      "name": "Switzerland",
+      "visa_required": true
+    },
+    {
+      "id": 3,
+      "name": "France",
+      "visa_required": false
     }
   ],
-  "comments": [
+  "interests": [
     {
       "id": 1,
-      "body": "some comment",
-      "postId": 1
+      "placeId": 1,
+      "name": "Local Market",
+      "description": "Local market where you can purchase local products and try the local food",
+      "cost": 0,
+      "review": "You can definitely get things for a lower price if you are willing to bargain"
+    },
+    {
+      "id": 2,
+      "placeId": 3,
+      "name": "Fresh Market",
+      "description": "Local market where you can purchase local products and try the local food",
+      "cost": 0,
+      "review": ""
+    },
+    {
+      "name": "alihasidhasd",
+      "description": "asdkjalsd",
+      "cost": "asdasd",
+      "placeId": 1,
+      "id": 4
+    },
+    {
+      "name": "blah",
+      "description": "blah",
+      "cost": "blah",
+      "placeId": 1,
+      "id": 5
+    },
+    {
+      "name": "asdas",
+      "description": "asd",
+      "cost": "asd",
+      "placeId": 3,
+      "id": 6
     }
-  ],
-  "profile": {
-    "name": "typicode"
-  }
+  ]
 }

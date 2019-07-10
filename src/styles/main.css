@@ -1,0 +1,16 @@
+#intSaveBtn {
+    margin-top: 20px
+}
+
+#intObj {
+    border: solid black 1px;
+    border-radius: 5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding: 10px
+}
+
+.newInt {
+    display: flex;
+    flex-direction: column;
+}
